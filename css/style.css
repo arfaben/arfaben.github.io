@@ -1,0 +1,128 @@
+        ul {
+            list-style-type: none;
+            margin-top: 50px;
+        }
+        
+        .menu {
+            position: absolute;
+            margin-left: 25%;
+            top: 5%;
+            padding: 0%;
+        }
+        
+        ul li {
+            display: inline-block;
+            width: 150px;
+            height: 30px;
+        }
+        
+        ul li a {
+            display: block;
+            height: 30px;
+            width: 150px;
+            color: black;
+            background-color: rgb(159, 236, 236);
+            text-align: center;
+            text-decoration: none;
+            padding-top: 4px;
+            border-radius: 10px;
+        }
+        
+        ul li a:hover {
+            background-color: black;
+            color: rgb(159, 236, 236);
+            text-decoration: none;
+        }
+        
+        .drop {
+            display: none;
+            z-index: 1;
+            position: absolute;
+        }
+        
+        #menu li ul li {
+            display: block;
+        }
+        
+        .contenair {
+            background-color: rgb(159, 236, 236);
+            border-radius: 5px;
+            margin: 30px;
+            width: 35%;
+            position: absolute;
+            padding: 70px;
+            margin-right: 25%;
+            margin-left: 32%;
+            box-shadow: 2px 4px 2px blue;
+            opacity: 95%;
+        }
+        
+        .cont1 {
+            height: 750px;
+        }
+        
+        .cont2 {
+            height: 300px;
+        }
+        
+        .items {
+            margin: 20px;
+            padding: 15px;
+        }
+        
+        .items input {
+            border-radius: 15px;
+            height: 30px;
+            -webkit-border-radius: 15px;
+            -moz-border-radius: 15px;
+            -ms-border-radius: 15px;
+            -o-border-radius: 15px;
+        }
+        
+        .me {
+            position: absolute;
+            margin-left: 50px;
+        }
+        
+        .corps {
+            background-color: seashell;
+        }
+        
+        legend {
+            text-align: center;
+            font-size: 17px;
+            font-weight: bold;
+            color: blue;
+        }
+        
+        .btn input {
+            border: 0;
+            border-radius: 5px;
+            background-color: rgb(21, 218, 86);
+            width: 90px;
+            height: 28px;
+            position: absolute;
+            right: 130px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+        }
+        
+        .btn input:hover,
+        .btn1 input:hover {
+            background-color: seashell;
+        }
+        
+        .btn1 input {
+            border: 0;
+            border-radius: 5px;
+            background-color: rgb(21, 218, 86);
+            width: 90px;
+            height: 28px;
+        }
+        
+        .carou {
+            width: 700;
+            height: 550;
+        }
